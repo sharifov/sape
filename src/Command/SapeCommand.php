@@ -16,7 +16,7 @@ class SapeCommand extends Command
 
     protected function configure(): void
     {
-        $this->addArgument('ticket', InputArgument::REQUIRED, 'AUTH_TICKET token for User cookie'); // cba8913a4fe870a90f2bd397e3a5c32f
+        $this->addArgument('ticket', InputArgument::REQUIRED, 'AUTH_TICKET token for User cookie');
     }
 	
 	private function getProjects(): array
